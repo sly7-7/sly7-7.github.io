@@ -651,15 +651,9 @@ form {
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
+  margin-left: 10px;
   color: #474747;
   text-indent: 3px;
-}
-
-#main-content h3:before {
-  content: "///";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -2em;
 }
 
 #main-content h4 {
