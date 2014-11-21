@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f1ef;
+  color: #2c3e50;
+  font-size: 62.5%;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+header {
+  padding-right: 0;
+  margin-bottom: 30px !important; }
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  word-break: keep-all; }
+
+h1 {
+  font-size: 70px;
+  font-size: 7rem; }
+
+h2 {
+  font-size: 50px;
+  font-size: 5rem; }
+
+p, ul {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+a {
+  position: relative;
+  display: inline-block; }
+  a {
+    color: #e67e22 !important; }
+  a:hover, a:active, a:focus {
+    color: white !important;
+    background-color: #e67e22; }
+
+.no-web {
+  display: none !important; }
+
+.title__main, .title__main--detail {
+  line-height: 80%;
+  text-align: left;
+  font-weight: 700;
+  color: #2c3e50; }
+  .title__main--detail {
+    color: #e67e22; }
+.title__subtitle {
+  text-align: left;
+  color: #7f8c8d;
+  font-size: 26px;
+  font-size: 2.6rem; }
+.title__links {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  margin: 2px 0;
+  font-size: 14px;
+  font-size: 1.4rem; }
+  .title__links > li {
+    color: #7f8c8d;
+    display: inline;
+    margin-right: 5px; }
+.title__section {
+  color: #2c3e50;
+  text-align: left;
+  font-size: 30px;
+  font-size: 3rem; }
+
+.section__content {
+  text-align: justify; }
+.section__subtitle {
+  color: #e67e22;
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-transform: none; }
+.section__list {
+  list-style: square; }
+  .section__list > li {
+    margin-right: 15px; }
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px; }
+  .icon-place {
+    background: url("../fonts/glyphicons_242_google_maps.png") no-repeat; }
